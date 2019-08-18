@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+	<!-- General meta information -->
+	<title>Login Form by Teratec</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="robots" content="index, follow" />
+	<meta charset="utf-8" />
+	<!-- // General meta information -->
+	
+	
+	<!-- Load Javascript -->
+	<script type="text/javascript" src="static/js/jquery.js"></script>
+	<script type="text/javascript" src="static/js/jquery.query-2.1.7.js"></script>
+	<script type="text/javascript" src="static/js/rainbows.js"></script>
+	<!-- // Load Javascipt -->
+
+	<!-- Load stylesheets -->
+	<link type="text/css" rel="stylesheet" href="static/css/style.css" media="screen" />
+	<!-- // Load stylesheets -->
+	
+</head>
+<body>
+
+	<div id="wrapper">
+		<div id="wrappertop"></div>
+
+		<div id="wrappermiddle">
+
+			<h2>Teratec System Login</h2>
+
+			<div id="username_input">
+
+				<div id="username_inputleft"></div>
+
+				<div id="username_inputmiddle">
+				<form>
+					<input type="text" name="link" id="url" value="E-mail Address" onclick="this.value = ''">
+					<img id="url_user" src="static/images/mailicon.png" alt="">
+				</form>
+				</div>
+
+				<div id="username_inputright"></div>
+
+			</div>
+
+			<div id="password_input">
+
+				<div id="password_inputleft"></div>
+
+				<div id="password_inputmiddle">
+				<form>
+					<input type="password" name="link" id="url" value="Password" onclick="this.value = ''">
+					<img id="url_password" src="static/images/passicon.png" alt="">
+				</form>
+				</div>
+
+				<div id="password_inputright"></div>
+
+			</div>
+			<div id="submit">
+				<form action="/reqauth" method="POST">
+					<input type="image" src="static/images/submit_hover.png" id="submit1" value="Sign In">
+					<input type="image" src="static/images/submit.png" id="submit2" value="Sign In">
+					<button type="submit" style="height: 38px !important;margin-top: 45px;width: 300px;background-color: #d09947;">Antline 계정으로 로그인 하기</button>					
+				</form>
+			</div>			
+
+		</div>
+
+		<div id="wrapperbottom"></div>
+		
+		<div id="powered">
+		<p>Powered by <a href="http://www.teratec.co.kr">Teratec Company</a></p>
+		</div>
+	</div>
+
+</body>
+</html>
