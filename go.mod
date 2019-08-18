@@ -1,4 +1,4 @@
-mdule github.com/nodias/golang-oauth2.0-client
+module github.com/nodias/golang-oauth2.0-client
 
 go 1.12
 
